@@ -1,0 +1,21 @@
+
+{
+  // These compiler settings basically say "use bleeding edge, and strict TypeScript"
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "module": "esnext",
+    "strict": true,
+    "outDir": "Source",
+    "types": ["lua-types/5.3"],
+    "moduleResolution": "node"
+  },
+  "exclude": ["Output"],
+  "tstl": {
+    "luaTarget": "5.3",
+    "luaLibImport": "inline",
+    "luaPlugins": [
+      { "name": "./TS2Lua/requireToImport.js" },
+    ]
+  }
+}

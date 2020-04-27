@@ -1,0 +1,13 @@
+{
+  // These Lua settings are optional, but it helps when you're reading the Playdate lua files
+  // and it is especially useful when you are working on the playdate.d.ts file
+  //
+  "Lua.diagnostics.globals": ["playdate", "import"],
+  "Lua.workspace.library": {
+    "/Users/ortatherox/Developer/PlaydateSDK/CoreLibs": true
+  },
+  "cSpell.words": [
+    "playdate"
+  ],
+  "typescript.tsc.autoDetect": "off",
+}

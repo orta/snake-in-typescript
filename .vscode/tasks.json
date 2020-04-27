@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+		{
+      "label": "Dev",
+      "dependsOn": ["Compile App", "TS Watch"]
+    },
+    {
+      "label": "Compile App",
+      "command": "pdc",
+      "args": ["Source", "Output"],
+			"type": "shell",
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "TS Watch",
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": "$tsc-watch",
+      "isBackground": true,
+      "presentation": { "reveal": "never" },
+      "group": { "kind": "build", "isDefault": true }
+    }
+  ]
+}
