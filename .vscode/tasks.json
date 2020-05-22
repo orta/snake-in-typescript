@@ -9,7 +9,8 @@
       "label": "Compile App",
       "command": "pdc",
       "args": ["Source", "Output"],
-			"type": "shell",
+      "type": "shell",
+      "presentation": { "reveal": "never" },
       "group": { "kind": "build", "isDefault": true }
     },
     {

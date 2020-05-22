@@ -1,0 +1,7 @@
+name=Snake
+author=Orta Therox
+description=Snake in TypeScript
+bundleID=io.orta.snek
+version=1.0
+buildNumber=100
+imagePath=SystemAssets
