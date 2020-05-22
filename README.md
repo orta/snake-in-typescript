@@ -1,5 +1,7 @@
 ### Snake in TypeScript
 
+<img src ="./screenshots/snek.jpg">
+
 An example of using the Playdate API with TypeScript to build a Snake game
 
 ### Getting set up
